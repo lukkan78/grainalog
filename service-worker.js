@@ -1,1 +1,4 @@
-// PWA service worker placeholder
+
+self.addEventListener('install', function(e) {
+  console.log('Grainalog service worker installed.');
+});

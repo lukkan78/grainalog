@@ -1,1 +1,13 @@
-/* Grainalog dark UI */
+
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+canvas {
+  margin-top: 20px;
+  max-width: 100%;
+  border: 1px solid #444;
+}
