@@ -1,13 +1,35 @@
 
 body {
-  background-color: #111;
-  color: #eee;
-  font-family: sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
-  padding: 20px;
+  padding: 1em;
 }
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #f5a623;
+}
+
+input[type="file"],
+select,
+input[type="range"],
+button {
+  display: block;
+  margin: 1em auto;
+  padding: 0.5em;
+  font-size: 1em;
+  width: 90%;
+  max-width: 400px;
+}
+
 canvas {
-  margin-top: 20px;
+  display: block;
+  margin: 1em auto;
   max-width: 100%;
-  border: 1px solid #444;
+  height: auto;
+  background-color: #000;
+  border: 1px solid #333;
 }
